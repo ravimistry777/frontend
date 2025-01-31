@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weekly Timetable</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        <tr>
+            <td>8:00am</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td rowspan="10">No Classes</td>
+        </tr>
+        <tr>
+            <td>9:00am</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>10:00am</td>
+            <td>Office Hours</td>
+            <td></td>
+            <td>Office Hours</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>11:00am</td>
+            <td>CS245A</td>
+            <td>CS301A</td>
+            <td>CS245A</td>
+            <td>CS301A</td>
+        </tr>
+        <tr>
+            <td>12:00pm</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>1:00pm</td>
+            <td colspan="4">Lunch</td>
+        </tr>
+        <tr>
+            <td>2:00pm</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>3:00pm</td>
+            <td>Office Hours</td>
+            <td>Office Hours</td>
+            <td></td>
+            <td>Office Hours</td>
+        </tr>
+        <tr>
+            <td>4:00pm</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>5:30pm</td>
+            <td>CS505A</td>
+            <td>CS556AH1</td>
+            <td>CS556BH2</td>
+            <td></td>
+        </tr>
+    </table>
+    <p>CS556AH1 is a first term course</p>
+    <p>CS556BH2 is a second term course</p>
+</body>
+
+</html>

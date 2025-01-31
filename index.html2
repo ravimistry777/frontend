@@ -1,0 +1,116 @@
+<!-- table3 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Table</title>
+<style>
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+
+<table>
+  <thead>
+    <tr>
+      <th>Country</th>
+      <th>State</th>
+      <th>City</th>
+      <th>Street</th>
+      <th>Male</th>
+      <th>Female</th>
+      <th>Others</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="8">1</td>  <td rowspan="4">Kerala</td>
+      <td>Cochin</td>
+      <td>New Street</td>
+      <td align="right">500</td>
+      <td align="right">600</td>
+      <td align="right">6</td>
+    </tr>
+    <tr>
+      <td>Cochin</td>
+      <td>Main Street</td>
+      <td align="right">300</td>
+      <td align="right">288</td>
+      <td align="right">2</td>
+    </tr>
+    <tr>
+      <td>Trivandrum</td>
+      <td>Guru Street</td>
+      <td align="right">500</td>
+      <td align="right">600</td>
+      <td align="right">10</td>
+    </tr>
+    <tr>
+      <td>Trivandrum</td>
+      <td>TVK Street</td>
+      <td align="right">500</td>
+      <td align="right">600</td>
+      <td align="right">2</td>
+    </tr>
+    <tr>
+      <td rowspan="4">Maharastra</td>  <td>Mumbai</td>
+      <td>Krisha Street</td>
+      <td align="right">700</td>
+      <td align="right">850</td>
+      <td align="right">1</td>
+    </tr>
+    <tr>
+      <td>Mumbai</td>
+      <td>Main Street</td>
+      <td align="right">500</td>
+      <td align="right">600</td>
+      <td align="right">2</td>
+    </tr>
+    <tr>
+      <td>Surath</td>
+      <td>New Street</td>
+      <td align="right">500</td>
+      <td align="right">600</td>
+      <td align="right">4</td>
+    </tr>
+    <tr>
+      <td>Surath</td>
+      <td>Billa Street</td>
+      <td align="right">500</td>
+      <td align="right">600</td>
+      <td align="right">2</td>
+    </tr>
+    <tr>
+      <td rowspan="2">2</td>
+      <td rowspan="2">Alaska</td>
+      <td rowspan="2">AKA Central</td>
+      <td>New Street</td>
+      <td align="right">200</td>
+      <td align="right">210</td>
+      <td align="right">2</td>
+    </tr>
+    <tr>
+      <td>Cross Street</td>
+      <td align="right">1000</td>
+      <td align="right">1050</td>
+      <td align="right">10</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
